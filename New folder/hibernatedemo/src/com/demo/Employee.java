@@ -1,6 +1,13 @@
 package com.demo;
 
 public class Employee {
+	private String lastname ;
+	private String salary;
+	private int id;
+	public Employee() {
+		
+		
+	}
 
 	private String firstname;
 	public Employee(String firstname, String lastname, String salary) {
@@ -9,13 +16,11 @@ public class Employee {
 		this.lastname = lastname;
 		this.salary = salary;
 	}
-	private String lastname ;
 	
-	private String salary;
-	private int id;
 	public String getFirstname() {
 		return firstname;
 	}
+	
 	public void setFirstname(String firstname) {
 		this.firstname = firstname;
 	}
